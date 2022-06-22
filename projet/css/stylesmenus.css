@@ -1,0 +1,155 @@
+/*GENERAL*/
+
+* {
+    box-sizing: border-box;
+}
+#container {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+html,
+body {
+    font-family: Raleway;
+}
+
+
+
+/* /////////////// HEADER ///////////////*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#logoheader {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header figure {
+    width: 100%;
+}
+
+#imagemenus {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#imagemenus figure {
+    width: 90%;
+    
+}
+
+
+#imagemenus figure img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+/*/////// MAIN//////*/  
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+
+#FondMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 87%;
+    border-radius: 40px 40px 0px 0px;
+    margin-top: -60px;
+}
+
+
+#restaurant {
+    
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 1%;
+}
+
+.LotRepas {
+    width: 95%;
+}
+
+.Plats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 40px;
+    margin: 1%;
+}
+
+.TitreBordure {
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+    
+}
+#BoutonRose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    width: 73%;
+    border-radius: 30px;
+    margin-top: 12%;
+    margin-bottom: 10%;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+footer img {
+    color: white;
+}
+#Fondgris3 {
+    margin: 3%;
+    width: 87%;
+    background-color: rgb(26, 26, 26);
+    padding:3%;
+    color:white;
+    height: 100%;
+    
+}
+
+
+/* <div class="Plats">
+
+
+
+
+
+
+
+
